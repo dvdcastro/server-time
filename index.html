@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Time getter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<table>
+  <tr>
+    <th>Server Time</th>
+    <td id="timeShow">Getting time from the server...</td>
+  </tr>
+  <tr>
+    <th>Client Time</th>
+    <td id="fastTimeShow">Client clock placeholder...</td>
+  </tr>
+</table>
+<script src="none.js"></script>
+<script src="server-time.js"></script>
+<script type="text/javascript">
+  startTimeUpdater('timeShow');
+  startTimerTick('fastTimeShow');
+</script>
+</body>
+</html>
